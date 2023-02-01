@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+        integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg m-0 p-0" style="background-color: rgba(128, 128, 128, 0.408);
+    border-bottom: 4px solid red;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/5fb469a49cab4fa.png" alt="" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5 mt-2 me-5" id="navbarTogglerDemo02" style="height: 5em;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-self-end">
+                        <li class="nav-item">
+                            <a class="nav-link active  text-light d-flex align-self-end fw-semibold" aria-current="page"
+                                href="HomePage.html"
+                                style="background-color: red; height:100%; width: 100%; border-radius: 0.7rem 0.7rem 0 0;">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold" href="PersonalPage.html">PERSONAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold">BUSINESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold">CORPORATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold">INVESTMENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold" href="AboutPage.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold" href="ContactPage.html">CONTACT</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn text-light"
+                        style="width: 8em;   background-color: red;">LOGIN</button>
+                    <button type="button" class="btn text-light ms-2"
+                        style="width: 8em; background-color: rgba(128, 128, 128, 0.408)">SIGN UP</button>
+
+                </div>
+            </div>
+        </nav>
+        <!-- DESKTOP DEVICE -->
+        <div class="container-fluid mt-5 d-lg-block  d-none" style="width: 80%; margin:auto;">
+            <div class="body-header text-lg-start text-center"
+                style="background:url('assets/Rectangle 638.png') top center no-repeat; background-size: cover; height: 800px; padding-top: 13rem;">
+                <div class="row">
+                    <div class="col-lg-4 d-lg-block d-none">
+                        <div class="card ms-5  p-2 d-lg-flex justify-content-center align-iterms-center"
+                            style="width: 20em;">
+                            <div class="card-body"
+                                style="background-color: #ffffff; border: none; line-height: 1.5rem;">
+                                <div class="h1">GOOD MORNING</div>
+                                <p class="card-text text-muted pt-3">
+                                    Sign in to get access to all our services
+                                </p>
+                                <input class="form-control p-3" type="text" placeholder="Username"
+                                    aria-label="default input example"
+                                    style="background-color: rgba(206, 206, 206, 0.408); border-radius: 1rem; border: none;">
+                                <input class="form-control mt-3 p-3" type="text" placeholder="Password"
+                                    aria-label="default input example"
+                                    style="background-color: rgba(206, 206, 206, 0.408); border-radius: 1rem; border: none;">
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input p-2" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label text-muted ms-2" for="flexCheckDefault">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <button class="btn-header  bg-danger text-light fw-bold p-3 mt-3"
+                                    style="border-radius: 5rem; border:none; width: 100%; ">SIGN IN</button><br>
+                                <button class="btn-header  bg-secondary text-light fw-bold p-3 mt-3"
+                                    style="border-radius: 5rem; border:none; width: 100%; ">CREATE ACCOUNT</button><br>
+                                <a href="#" class="card-link text-muted ms-2">Forgot Password</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8" style="align-self:center;">
+                        <div class="h1 text-light">Simplify your life</div>
+                        <p class="text-light">Your money's at hand with
+                            Constant Checking
+                        </p>
+                        <!-- DESKTOP DEVICE -->
+                        <button class="btn-header d-lg-block d-none bg-transparent fw-bold p-2 mt-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red; color: red; width: 12em;">LEARN
+                            MORE</button>
+                    </div>
+                    <div class="col-12" style=" display:flex; justify-content: center; align-items: center;">
+                        <!-- TABLET AND MOBILE DEVICE -->
+                        <button class="btn-header text-light d-lg-none d-block bg-transparent fw-semibold p-2 mt-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid #ffffff; width: 12em;">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TABLET DEVICE -->
+        <div class="container-fluid p-0 mt-5 d-lg-none  d-md-block d-none">
+            <div class="body-header"
+                style="background:url('assets/Rectangle 638.png') top center no-repeat; background-size: cover; height: 800px; padding-top: 18rem;">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div class="h1 text-light">Simplify your life</div>
+                        <p class="text-light">Your money's at hand with
+                            Constant Checking
+                        </p>
+                        <button class="btn-header text-light d-lg-none d-block bg-transparent fw-semibold p-2 mt-5"
+                        style="border-radius: 5rem; border:none; outline: 2px solid #ffffff; width: 12em;">LEARN
+                        MORE</button>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE DEVICE -->
+        <div class="container-fluid  p-0 d-lg-none d-md-none d-sm-none d-block">
+            <div class="body-header"
+                style="background:url('assets/Rectangle 638.png') top center no-repeat; background-size: cover; height: 400px; padding-top: 16rem;">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-8" style="align-self:center;">
+                        <div class="h1 text-light">Simplify your life</div>
+                        <p class="text-light">Your money's at hand with
+                            Constant Checking
+                        </p>
+                        <button class="btn-header text-light bg-transparent fw-bold p-2 mt-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid #ffffff; width: 12em;">LEARN
+                            MORE</button>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- DESKTOP DEVICE -->
+        <section class="d-lg-block d-md-none d-none" style="width: 70%; margin:auto; height: 100%;">
+            <div class="container-fluid">
+                <div class="row g-5">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card mt-5"
+                            style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-house-chimney text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">Wants to buy a house?
+                                    We can help
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card mt-5"
+                        style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-fingerprint text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">
+                                    Top of the line security for your money
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card mt-5"
+                        style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-money-check-dollar text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">Get a card that meets your needs
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card mt-5"       style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-car text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">
+                                    Why not buy a car, we got it covered
+                                </p>
+                                <div class="split d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TABLET DEVICE -->
+        <section class="d-lg-none d-md-block d-none" style="width: 80%; margin:auto; height: 100%;">
+            <div class="container-fluid">
+                <div class="row g-3">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card mt-5"
+                            style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-house-chimney text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">Wants to buy a house?
+                                    We can help
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card mt-5"
+                        style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-fingerprint text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">
+                                    Top of the line security for your money
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card"
+                        style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-money-check-dollar text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">Get a card that meets your needs
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card"       style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-car text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">
+                                    Why not buy a car, we got it covered
+                                </p>
+                                <div class="split d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MOBILE DEVICE -->
+        <section class="d-lg-none d-md-none d-block" style="height: 100%;">
+            <div class="container-fluid">
+                <div class="row g-2">
+                    <div class="col-6 ">
+                        <div class="card mt-5"
+                            style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-house-chimney text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">Wants to buy a house?
+                                    We can help
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6 ">
+                        <div class="card mt-5"
+                        style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-fingerprint text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">
+                                    Top of the line security for your money
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="card mt-5"
+                        style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-money-check-dollar text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">Get a card that meets your needs
+                                </p>
+                                <div class="split  d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="card mt-5"       style="background-color: #f5f5f5; border: none; line-height: 1.5rem; box-shadow:0px 2px 1px 2px #e7e5e5af; height: 12em;">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa-solid fa-car text-danger" style="font-size: 3rem;"></i>
+                                </div>
+                                <p class="card-text text-muted pt-3">
+                                    Why not buy a car, we got it covered
+                                </p>
+                                <div class="split d-flex gap-2">
+                                    <div>
+                                        <p style="color: #252525d1;">LEARN MORE</p>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right" style="color: #252525d1;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bg CREDIT CARD -->
+        <!-- DESKTOP DEVICE -->
+        <section class="d-lg-block d-none" style="width: 70%; margin:auto;">
+            <div class="container-fluid m-0 p-0">
+                <div class="body-header  mt-5 "
+                    style="background:url('assets/Rectangle 8.png') top center no-repeat; background-size: cover; height: 600px; padding-top: 9rem;">
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-4">
+                            <div class="h1 text-light">introducing the AUTOMATE Card</div>
+                            <p class="text-light pt-3">Earn EXTRA points on dining, travel,
+                                popular streaming services & more.
+                                Terms apply.
+                            </p>
+                            <button class="btn-header  bg-transparent text-light fw-bold p-2 mt-3"
+                                style="border-radius: 5rem; border:none; outline: 2px solid #ffffff; width: 12em;">LEARN
+                                MORE</button>
+                        </div>
+                        <div class="col-7"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TABLET DEVICE -->
+        <section class="d-md-block d-lg-none d-none">
+            <div class="container-fluid m-0 p-0">
+                <div class="body-header  mt-5 "
+                    style="background:url('assets/Rectangle 8.png') top center no-repeat; background-size: cover; height: 600px; padding-top: 9rem;">
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-4">
+                            <div class="h1 text-light">introducing the AUTOMATE Card</div>
+                            <p class="text-light pt-3">Earn EXTRA points on dining, travel,
+                                popular streaming services & more.
+                                Terms apply.
+                            </p>
+                            <button class="btn-header  bg-transparent text-light fw-bold p-2 mt-3"
+                                style="border-radius: 5rem; border:none; outline: 2px solid #ffffff; width: 12em;">LEARN
+                                MORE</button>
+                        </div>
+                        <div class="col-7"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MOBILE DEVICE -->
+        <section class="d-lg-done d-md-none d-block">
+            <div class="container-fluid m-0 p-0">
+                <div class="body-header  mt-5 "
+                    style="background:url('assets/Rectangle 8.png') top center no-repeat; background-size: cover; height: 600px;">
+                    <div class="row">
+                        <div class="col-12" style="justify-content: center; align-items:center; text-align: center; padding-top: 11em;">
+                            <div class="h1 text-light">introducing the AUTOMATE Card</div>
+                            <p class="text-light pt-3">Earn EXTRA points on dining, travel,
+                                popular streaming services & more.
+                                Terms apply.
+                            </p>
+                            <button class="btn-header  bg-transparent text-light fw-bold p-2 mt-3"
+                                style="border-radius: 5rem; border:none; outline: 2px solid #ffffff; width: 12em;">LEARN
+                                MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- GUIDANCE -->
+        <section style="width: 70%; margin:auto;">
+            <div class="h1 text-center mt-5" style="color: #252525d1;">Guidance to reach your financial goals</div>
+        </section>
+        <!-- CARD -->
+        <!-- DESKTOP DEVICE -->
+        <section class="d-lg-block d-md-none d-none" style="width: 60%; margin:auto; height: 100%;">
+            <div class="container-fluid">
+                <div class="row g-5">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 13.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Banks where life takes you</h5>
+                                <p class="card-text text-muted">Accounts and services that help make it easier to manage
+                                    your</p>
+                                <a href="#" class="btn fw-bold p-2 mb-5" style="border-radius: 5rem; border:none; outline: 2px solid red;
+                                color: red; width: 12em;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 611.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Explore your credit and borrowing
+                                    options</h5>
+                                <p class="card-text text-muted">Tips to help build your credit score and manage your
+                                    debt efficiently</p>
+                                <a href="#" class="btn fw-bold p-2 mb-5" style="border-radius: 5rem; border:none; outline: 2px solid red;
+                                color: red; width: 12em;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 613.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Keep your money and information safe
+                                </h5>
+                                <p class="card-text text-muted">See how we help protect you. Get fraud preventiion tips.
+                                </p>
+                                <a href="#" class="btn  fw-bold p-2 mb-5"
+                                    style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 12em;">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TABLET DEVICE -->
+        <section class="d-lg-none d-md-block d-none" style="width: 80%; margin:auto; height: 100%;">
+            <div class="container-fluid">
+                <div class="row g-5">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 13.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Banks where life takes you</h5>
+                                <p class="card-text text-muted">Accounts and services that help make it easier to manage
+                                    your</p>
+                                <a href="#" class="btn fw-bold p-2 mb-5" style="border-radius: 5rem; border:none; outline: 2px solid red;
+                                color: red; width: 12em;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 611.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Explore your credit and borrowing
+                                    options</h5>
+                                <p class="card-text text-muted">Tips to help build your credit score and manage your
+                                    debt efficiently</p>
+                                <a href="#" class="btn fw-bold p-2 mb-5" style="border-radius: 5rem; border:none; outline: 2px solid red;
+                                color: red; width: 12em;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 613.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Keep your money and information safe
+                                </h5>
+                                <p class="card-text text-muted">See how we help protect you. Get fraud preventiion tips.
+                                </p>
+                                <a href="#" class="btn  fw-bold p-2 mb-5"
+                                    style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 12em;">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MOBILE DEVICE -->
+        <section class="d-lg-none d-md-none d-block" style="height: 100%;">
+            <div class="container-fluid">
+                <div class="row g-5">
+                    <div class="col-12 ">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 13.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Banks where life takes you</h5>
+                                <p class="card-text text-muted">Accounts and services that help make it easier to manage
+                                    your</p>
+                                <a href="#" class="btn fw-bold p-2 mb-5" style="border-radius: 5rem; border:none; outline: 2px solid red;
+                                color: red; width: 12em;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 611.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Explore your credit and borrowing
+                                    options</h5>
+                                <p class="card-text text-muted">Tips to help build your credit score and manage your
+                                    debt efficiently</p>
+                                <a href="#" class="btn fw-bold p-2 mb-5" style="border-radius: 5rem; border:none; outline: 2px solid red;
+                                color: red; width: 12em;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card mt-4"
+                            style="background-color: rgba(206, 206, 206, 0.408); border: none; line-height: 1.5rem; box-shadow: 1px 1px 2px 1px #98979782; height: 100%;">
+                            <img src="assets/Rectangle 613.png" class="card-img-top" alt="...">
+                            <div class="card-body mt-5">
+                                <h5 class="card-title" style="color: #252525d1;">Keep your money and information safe
+                                </h5>
+                                <p class="card-text text-muted">See how we help protect you. Get fraud preventiion tips.
+                                </p>
+                                <a href="#" class="btn  fw-bold p-2 mb-5"
+                                    style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 12em;">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- READY FOR EASIER -->
+        <!-- TABLET DEVICE -->
+        <section class="d-lg-none d-md-block d-none">
+            <div class="container-fluid" style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem; padding-left: 4em; padding-right: 4em;">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="h1 text-center mt-5" style="color: #252525d1;">Are you ready for easier?</div>
+                        <p class="text-muted">Download our revamped mobile application today for an easier banking
+                            experience to help manager your account</p>
+                        <p class="text-muted">Simplified views of your accounts</p>
+                        <p class="text-muted">Easy-to-use navigation</p>
+                        <p class="text-muted">A new Pay & Transfer center</p>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="assets/Rectangle 306.png" alt="" class="img-fluid w-100 mt-5 mb-5">
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center  p-2 mb-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 18rem; margin-left: 2em;">DOWNLOAD
+                            ON
+                            APPSTORE</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center p-2 mb-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 18rem;">DOWNLOAD
+                            ON
+                            PLAYSTORE</a>
+                    </div>
+                </div>
+            </div>
+            <section style="width: 70%; margin:auto;">
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="h1 text-center mt-5" style="color: #252525d1;">Serving our customers and
+                                communities</div>
+                            <p class="text-muted text-center mt-5 mb-5">it doesn't happen with one transaction, in one
+                                day on the job, or in one quarter, it's earned relationship by relationship.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid p-0" style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem; width: 80%;margin: auto; height: 100%;">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/Rectangle 618.png" alt="" class="img-fluid w-100  mb-5">
+                    </div>
+                    <div class="col-12">
+                        <div class="h1 ps-3" style="color: #252525d1;">Who we are</div>
+                        <p class="text-muted ps-3">Our company helps strengthen
+                            communities through diversity, equaity, and inclusion, economic empowermwnt, and
+                            sustainability.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center mt-3 ms-3 mb-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 15rem;">LEARN
+                            MORE</a>
+                    </div>
+                </div>
+            </div><br>
+            <div class="container-fluid p-0" style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem; width: 80%;margin: auto; height: 100%;">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/Rectangle 617.png" alt="" class="img-fluid w-100  mb-5">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="h1 ps-3" style="color: #252525d1;">Living our commitment</div>
+                        <p class="text-muted ps-3">Explore stories about how we're helping customers succeed and
+                            communities thrive.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center  mt-3 ms-3 mb-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 15rem;">LEARN
+                            MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MOBILE DEVICE -->
+        <section class="d-lg-none d-md-none d-sm-block d-block " style="height: 100%; margin-top: 10em;">
+            <div class="container-fluid " style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem; padding: 2em;">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="h1" style="color: #252525d1;">Are you ready for easier?</div>
+                        <p class="text-muted">Download our revamped mobile application today for an easier banking
+                            experience to help manager your account</p>
+                        <p class="text-muted">Simplified views of your accounts</p>
+                        <p class="text-muted">Easy-to-use navigation</p>
+                        <p class="text-muted">A new Pay & Transfer center</p>
+                    </div>
+                    <div class="col-12">
+                        <img src="assets/Rectangle 306.png" alt="" class="img-fluid w-100 mt-5 mb-5">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center  p-2 mb-4"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 18rem;">DOWNLOAD
+                            ON
+                            APPSTORE</a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center p-2 mb-4"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 18rem;">DOWNLOAD
+                            ON
+                            PLAYSTORE</a>
+                    </div>
+                </div>
+            </div>
+            <section style="width: 70%; margin:auto;">
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="h1 text-center mt-5" style="color: #252525d1;">Serving our customers and
+                                communities</div>
+                            <p class="text-muted text-center mt-5 mb-5">it doesn't happen with one transaction, in one
+                                day on the job, or in one quarter, it's earned relationship by relationship.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid p-0" style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/Rectangle 618.png" alt="" class="img-fluid w-100  mb-5">
+                    </div>
+                    <div class="col-12">
+                        <div class="h1 ps-3" style="color: #252525d1;">Who we are</div>
+                        <p class="text-muted ps-3">Our company helps strengthen
+                            communities through diversity, equaity, and inclusion, economic empowermwnt, and
+                            sustainability.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center mt-3 ms-3 mb-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 15rem;">LEARN
+                            MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0" style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/Rectangle 617.png" alt="" class="img-fluid w-100  mb-5">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="h1 ps-3" style="color: #252525d1;">Living our commitment</div>
+                        <p class="text-muted ps-3">Explore stories about how we're helping customers succeed and
+                            communities thrive.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <a href="#"
+                            class="btn  fw-bold d-flex justify-content-center align-items-center text-center  mt-3 ms-3 mb-5"
+                            style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 15rem;">LEARN
+                            MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- DESKTOP DEVICE -->
+        <section class="d-lg-block d-none " style="width: 70%; margin:auto; height: 100%;">
+            <div class="container-fluid p-0" style="background-color:rgba(206, 206, 206, 0.408); margin-top: 5rem;">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <img src="assets/Rectangle 306.png" alt="" class="img-fluid h-100 w-100">
+                    </div>
+                    <div class="col-12 col-md-6" style="padding-top: 3rem; ">
+                        <div class="h1" style="color: #252525d1;">Are you ready for easier?</div>
+                        <p class="text-muted" style="padding-right:5em;">Download our revamped mobile application today for an easier banking
+                            experience to help manager your account</p>
+                        <p class="text-muted">Simplified views of your accounts</p>
+                        <p class="text-muted">Easy-to-use navigation</p>
+                        <p class="text-muted">A new Pay & Transfer center</p>
+                        <div class="split d-flex gap-3 mt-5">
+                            <div class=" ">
+                                <a href="#"
+                                    class="btn  fw-bold d-flex justify-content-center align-items-center text-center  p-2 mb-4"
+                                    style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 18rem;">DOWNLOAD
+                                    ON
+                                    APPSTORE</a>
+                            </div>
+                            <div class=" ">
+                                <a href="#"
+                                    class="btn  fw-bold d-flex justify-content-center align-items-center text-center p-2 mb-4"
+                                    style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 18rem;">DOWNLOAD
+                                    ON
+                                    PLAYSTORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section style="width: 70%; margin:auto;">
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="h1 text-center mt-5" style="color: #252525d1;">Serving our customers and
+                                communities</div>
+                            <p class="text-muted text-center mt-5 mb-5">it doesn't happen with one transaction, in one
+                                day on the job, or in one quarter, it's earned relationship by relationship.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6" style="height: 100%;">
+                        <div class="container-fluid p-0"
+                            style="background-color:rgba(206, 206, 206, 0.408); margin-top: 1rem; border-radius: 0.5rem;">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6">
+                                    <img src="assets/Rectangle 618.png" alt="" class="img-fluid w-100  mb-5">
+                                </div>
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="h1 mt-4 ps-3" style="color: #252525d1;">Who we are</div>
+                                    <p class="text-muted ps-3">Our company helps strengthen
+                                        communities through diversity, equaity, and inclusion, economic empowermwnt, and
+                                        sustainability.
+                                    </p>
+                                </div>
+                                <div class="col-lg-12 col-md-6">
+                                    <a href="#"
+                                        class="btn  fw-bold d-flex justify-content-center align-items-center text-center m-5 p-2"
+                                        style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 12em;">LEARN
+                                        MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" style="height: 100%;">
+                        <div class="container-fluid p-0"
+                            style="background-color:rgba(206, 206, 206, 0.408); margin-top: 1rem; border-radius: 0.5rem;">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6">
+                                    <img src="assets/Rectangle 617.png" alt="" class="img-fluid w-100  mb-5">
+                                </div>
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="h1 mt-5 ps-3" style="color: #252525d1;">Living our commitment</div>
+                                    <p class="text-muted ps-3">Explore stories about how we're helping customers succeed
+                                        and
+                                        communities thrive.
+                                    </p>
+                                </div>
+                                <div class="col-lg-12 col-md-6">
+                                    <a href="#"
+                                        class="btn  fw-bold d-flex justify-content-center align-items-center text-center  m-5 p-2"
+                                        style="border-radius: 5rem; border:none; outline: 2px solid red ; color: red; width: 12em;">LEARN
+                                        MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CAN  WE HELP? -->
+        <section style="width: 70%; margin:auto;">
+            <div class="container-fluid" style="margin-top: 6em;">
+                <div class="h1" style="color: #252525d1;">How can we help?</div>
+                <div class="row" style="margin-top: 2em;">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="split d-flex gap-2">
+                            <div class="icon">
+                                <i class="fa-solid fa-circle fs-4" style="color: rgba(0, 234, 255, 0.228);"></i>
+                            </div>
+                            <div class="para text-muted ">
+                                <p class="">Find a location near you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="split d-flex gap-2">
+                            <div class="icon">
+                                <i class="fa-solid fa-circle fs-4" style="color: rgba(0, 234, 255, 0.228);"></i>
+                            </div>
+                            <div class="para text-muted">
+                                <p>Make an appointement</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="split d-flex gap-2">
+                            <div class="icon">
+                                <i class="fa-solid fa-circle fs-4" style="color: rgba(0, 234, 255, 0.228);"></i>
+                            </div>
+                            <div class="para text-muted">
+                                <p>(00 237) 123 456 789</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTENT -->
+        <!-- MOBILE DEVICE -->
+        <section class="d-lg-none d-md-none d-block" style=" background-color: rgba(206, 206, 206, 0.408);">
+            <div class="container-fluid" style="width: 70%; margin:auto; margin-top: 5rem;">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <p class="mt-5 text-muted">Investment products and services are offered through Wells Fargo
+                            Advisors. Wells Fargo Advisors is a trade name used by Wells Fargo Cleaning Services,
+                            LLC(WFCS) Wells Fargo Advisors Finaancial Network, LLC, Member SIPC, separate registered
+                            broker-dealer and non-bank affiliates of Wells Fargo & Company.</p>
+                        <p class="text-muted">Android, Chrome, Google Pay, Google Pixel, Giigle Play, Wear OS by Google,
+                            and the Google Logo are trademarks of Google LLc.</p>
+                        <p class="text-muted">Apple, the Apple logo, Apple Pay, Apple Watch, Face ID, iPad Pro, iPhone,
+                            iTunes, Mac, Safari, and Touch ID are trademarks of Apple Inc., registered in the U.S. and
+                            other countries. Apple Wallet is a trademark of Apple Inc. App Store is a service mark of
+                            Apple Inc.</p>
+                        <p class="text-muted">Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                        <hr>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-muted">
+                            <li class="nav-item">
+                                <p>Privacy, Cookies, Security & Legal
+                                </p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Notice of Data Coletion</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>General Terms of Use</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Online Access Agreement</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Ad Choices</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Report Fraud</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>About wells Fargo</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Careers</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Diversity and Accessibility/p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Sitemap</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- DESKTOP AND TABLET DEVICE -->
+        <section class="d-lg-block d-md-block d-none" style=" background-color: rgba(206, 206, 206, 0.408);">
+            <div class="container-fluid" style="width: 70%; margin:auto; margin-top: 5rem;">
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-8" style="margin-top: 4em; margin-bottom: 4em; padding-right: 4em;">
+                        <p class=" text-muted">Investment products and services are offered through Wells Fargo
+                            Advisors. Wells Fargo Advisors is a trade name used by Wells Fargo Cleaning Services,
+                            LLC(WFCS) Wells Fargo Advisors Finaancial Network, LLC, Member SIPC, separate registered
+                            broker-dealer and non-bank affiliates of Wells Fargo & Company.</p>
+                        <p class="text-muted">Android, Chrome, Google Pay, Google Pixel, Giigle Play, Wear OS by Google,
+                            and the Google Logo are trademarks of Google LLc.</p>
+                        <p class="text-muted">Apple, the Apple logo, Apple Pay, Apple Watch, Face ID, iPad Pro, iPhone,
+                            iTunes, Mac, Safari, and Touch ID are trademarks of Apple Inc., registered in the U.S. and
+                            other countries. Apple Wallet is a trademark of Apple Inc. App Store is a service mark of
+                            Apple Inc.</p>
+                        <p class="text-muted">Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4" style="border-left: 2px solid grey; margin-top: 4em; margin-bottom: 4em; padding-left: 5em;">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-muted">
+                            <li class="nav-item">
+                                <p>Privacy, Cookies, Security & Legal
+                                </p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Notice of Data Coletion</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>General Terms of Use</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Online Access Agreement</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Ad Choices</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Report Fraud</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>About wells Fargo</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Careers</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Diversity and Accessibility</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Sitemap</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid" style="background-color: red;">
+            <div class="row">
+                <div class="col-12">
+                    <div class="split d-flex justify-content-center align-iterms-cemter gap-3 text-light fs-2">
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="icon"> <i class="bi bi-youtube"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="text-center text-light mt-2">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-center text-light">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo"
+      crossorigin="anonymous"
+    />
+    <title>Personal3</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg p-0 m-0"
+        style="
+          background-color: rgba(128, 128, 128, 0.408);
+          border-bottom: 3px solid red;
+          position: relative;
+          height: 12em;
+        "
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/5fb469a49cab4fa.png" alt="" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-5 mt-2 me-5"
+            id="navbarTogglerDemo02"
+            style="height: 5em"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-self-end">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark fw-semibold"
+                  aria-current="page"
+                  href="HomePage.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light fw-semibold"
+                  href="Personal4Page.html"
+                  style="
+                    background-color: red;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 0.7rem 0.7rem 0 0;
+                  "
+                  >PERSONAL</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold">BUSINESS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold">CORPORATE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold">INVESTMENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="AboutPage.html"
+                  >ABOUT US</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="ContactPage.html">CONTACT</a>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn text-light"
+              style="width: 8em; background-color: red"
+            >
+              LOGIN
+            </button>
+            <button
+              type="button"
+              class="btn text-light ms-2"
+              style="width: 8em; background-color: rgba(128, 128, 128, 0.408)"
+            >
+              SIGN UP
+            </button>
+          </div>
+        </div>
+        <div
+          class="container-fluid d-none d-lg-block d-md-block"
+          style="background-color: red; position: absolute; inset: auto 0 0 0"
+        >
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="split d-flex gap-5 text-light pt-3"
+                style="padding-left: 9.3em"
+              >
+                <div>
+                  <p>ACCOUNT</p>
+                </div>
+                <div>
+                  <p>CREDIT CARD</p>
+                </div>
+                <div>
+                  <p style="text-decoration: 2px underline">SAVINGS</p>
+                </div>
+                <div>
+                  <p>LOANS</p>
+                </div>
+                <div>
+                  <p>POS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- DESKTOP DEVICE -->
+      <div class="container-fluid p-0 d-lg-block d-md-none d-none">
+        <div
+          class="body-header text-lg-start text-center"
+          style="
+            background: url('assets/Rectangle 637.png') top center no-repeat;
+            background-size: cover;
+            height: 800px;
+            padding-top: 13rem;
+          "
+        >
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-12 col-lg-4">
+              <div class="h1 text-light mt-5">
+                Save today for the life you want tomorrow
+              </div>
+              <p class="text-muted">Start Saving today</p>
+            </div>
+            <div class="col-lg-1"></div>
+          </div>
+        </div>
+      </div>
+      <!-- TABLET DEVICE -->
+      <div class="container-fluid p-0 d-lg-none d-md-block d-none">
+        <div
+          class="body-header"
+          style="
+            background: url('assets/Rectangle 637.png') top center no-repeat;
+            background-size: cover;
+            height: 800px;
+            padding-top: 27rem;
+          "
+        >
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-6">
+              <div class="h1 text-light mt-5">
+                Save today for the life you want tomorrow
+              </div>
+              <p class="text-muted">Start Saving today</p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+      <!-- MOBILE DEVICE -->
+      <div class="container-fluid p-0 d-lg-none d-md-none d-block">
+        <div
+          class="body-header"
+          style="
+            background: url('assets/Rectangle 637.png') top center no-repeat;
+            background-size: cover;
+            height: 400px;
+            padding-top: 14.8rem;
+          "
+        >
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-10">
+              <div class="h1 text-light mt-5">
+                Save today for the life you want tomorrow
+              </div>
+              <p class="text-muted">Start Saving today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- SIMPLE SAVINGS -->
+      <!-- DESKTOP AND TABLET DEVICE -->
+      <section class="d-lg-block d-md-block d-none" style="width: 70%; margin: auto">
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <div class="col">
+              <div class="h1 text-center mt-5" style="color: #252525d1">
+                Simple savings account solutions
+              </div>
+              <p class="text-muted text-center mt-2 mb-5">
+                Our savings account layer can help boost your financial health
+                and put your goals into focus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-nonek d-md-none d-block" style="width: 90%; margin: auto">
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <div class="col">
+              <div class="h1 text-center mt-5" style="color: #252525d1">
+                Simple savings account solutions
+              </div>
+              <p class="text-muted text-center mt-2 ">
+                Our savings account layer can help boost your financial health
+                and put your goals into focus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CARD -->
+      <section class="d-lg-block d-md-none d-none" style="width: 70%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                          <img
+                            src="assets/Rectangle 638.png"
+                            alt=""
+                            class="img-fluid w-100 mb-5"
+                          />
+                        </div>
+                        <div
+                          class="col-lg-12 col-md-6"
+                          style="text-align: center"
+                        >
+                          <div class="h1 mt-4 ps-3" style="color: #252525d1">
+                            Daily contribution
+                          </div>
+                          <p class="text-muted ps-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas eos necessitatibus tempore expedita,
+                            quasi maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                          <img
+                            src="assets/Rectangle 639.png"
+                            alt=""
+                            class="img-fluid w-100 mb-5"
+                          />
+                        </div>
+                        <div
+                          class="col-lg-12 col-md-6"
+                          style="text-align: center"
+                        >
+                          <div class="h1 mt-4 ps-3" style="color: #252525d1">
+                            MOMO deposits
+                          </div>
+                          <p class="text-muted ps-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas eos necessitatibus tempore expedita,
+                            quasi maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                          <img
+                            src="assets/Rectangle 640.png"
+                            alt=""
+                            class="img-fluid w-100 mb-5"
+                          />
+                        </div>
+                        <div
+                          class="col-lg-12 col-md-6"
+                          style="text-align: center"
+                        >
+                          <div class="h1 mt-4 ps-3" style="color: #252525d1">
+                            Save at your pace
+                          </div>
+                          <p class="text-muted ps-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas eos necessitatibus tempore expedita,
+                            quasi maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TABLET DEVICE -->
+      <section class="d-lg-none d-md-block d-none" style="width: 70%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem; height: 26em;
+                      "
+                    >
+                      <div class="row" >
+                        <div class="col-md-12">
+                          <img
+                            src="assets/Rectangle 638.png"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
+                        </div>
+                        <div
+                          class="col-md-12"
+                        >
+                          <div class="h1 mt-4 ps-5" style="color: #252525d1">
+                            Daily contribution
+                          </div>
+                          <p class="text-muted ps-5 pe-5 pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, corporis!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem; height: 26em;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <img
+                            src="assets/Rectangle 639.png"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
+                        </div>
+                        <div
+                          class="col-md-12"
+                        >
+                          <div class="h1 mt-4 ps-5" style="color: #252525d1">
+                            MOMO deposits
+                          </div>
+                          <p class="text-muted ps-5 pe-5 pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eaque!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem; height: 26em;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <img
+                            src="assets/Rectangle 640.png"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
+                        </div>
+                        <div
+                          class="col-md-12"
+                        >
+                          <div class="h1 mt-4 ps-5" style="color: #252525d1">
+                            Save at your pace
+                          </div>
+                          <p class="text-muted ps-5 pe-5 pb-3">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, consequatur.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-none d-md-none d-block" style="width: 90%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: .5rem; height: 26em;
+                      "
+                    >
+                      <div class="row" >
+                        <div class="col-md-12">
+                          <img
+                            src="assets/Rectangle 638.png"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
+                        </div>
+                        <div
+                          class="col-md-12"
+                        >
+                          <div class="h1  ps-5 pe-2" style="color: #252525d1">
+                            Daily contribution
+                          </div>
+                          <p class="text-muted ps-5 pe-5 pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas eos necessitatibus tempore expedita,
+                            quasi maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem; height: 26em;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <img
+                            src="assets/Rectangle 639.png"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
+                        </div>
+                        <div
+                          class="col-md-12"
+                        >
+                          <div class="h1 mt-4 ps-5" style="color: #252525d1">
+                            MOMO deposits
+                          </div>
+                          <p class="text-muted ps-5 pe-5 pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas eos necessitatibus tempore expedita,
+                            quasi maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12" style="height: 100%">
+                    <div
+                      class="container-fluid p-0"
+                      style="
+                        background-color: rgba(206, 206, 206, 0.408);
+                        margin-top: 5rem; height: 26em;
+                      "
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <img
+                            src="assets/Rectangle 640.png"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
+                        </div>
+                        <div
+                          class="col-md-12"
+                        >
+                          <div class="h1 mt-4 ps-5" style="color: #252525d1">
+                            Save at your pace
+                          </div>
+                          <p class="text-muted ps-5 pe-5 pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas eos necessitatibus tempore expedita,
+                            quasi maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ACCOUNT MANAGEMENT -->
+      <section class="d-lg-block d-md-block d-none">
+        <div class="h1 text-center mt-5" style="color: #252525d1">
+          Account management tools
+        </div>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-none d-md-none d-block" style="width: 90%; margin:auto;">
+        <div class="h1 text-center mt-5" style="color: #252525d1">
+          Account management tools
+        </div>
+      </section>
+      <!-- SLIPT CARD -->
+      <!-- DESKTOP DEVICE -->
+      <section class="d-lg-block d-md-none d-none" style="width: 70%; margin: auto; margin-top: 5em">
+        <div class="container-fluid">
+          <div class="row g-3">
+            <div class="col-lg-4">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-vault text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Easy to save</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit tempora quos eligendi consequatur fuga impedit fugiat
+                    ratione possimus officiis. Nihil qui nulla, amet ipsam hic
+                    doloremque quidem at est doloribus?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-clock-rotate-left text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Available 24/7</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima, illo suscipit libero architecto non optio magnam
+                    laudantium animi iste iusto alias ab rerum fugit. Assumenda
+                    recusandae inventore vero atque iste?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-shield-halved text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Security</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Perspiciatis, doloremque aut dolorum ea architecto animi
+                    quos minima eius saepe ratione, repellat vel excepturi
+                    soluta? Atque perspiciatis amet cupiditate a tenetur!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-piggy-bank text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2 flex-shrink-0" style="color: #252525d1">
+                    Save and grow your money
+                  </div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    sequi excepturi magni aliquam harum! Corporis laborum
+                    dolorem error, necessitatibus distinctio mollitia enim
+                    soluta, eos labore fugit dicta sequi atque rerum?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-microchip text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2">Multi intergrations</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam debitis esse eaque magnam quisquam ut officia
+                    deserunt rem? Aliquid iure blanditiis fugit? Officia a
+                    ducimus sequi, illo repudiandae libero tempora?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-heart text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">User friendly</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Repellendus incidunt minima placeat, non aspernatur nulla
+                    sed saepe dolor quod ab dolorem possimus similique
+                    obcaecati, nostrum quas, eos magnam hic et?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TABLET DEVICE -->
+      <section class="d-lg-none d-md-block d-none" style="width: 80%; margin: auto; margin-top: 5em">
+        <div class="container-fluid">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-vault text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Easy to save</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, earum!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-clock-rotate-left text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Available 24/7</div>
+                  <p class="text-muted">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, accusamus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-shield-halved text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Security</div>
+                  <p class="text-muted">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, architecto.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-piggy-bank text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2 flex-shrink-0" style="color: #252525d1">
+                    Save and grow your money
+                  </div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, magnam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-microchip text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2">Multi intergrations</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, sed!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-5" style="background-color: #f5f5f5; height: 20em;">
+                <div>
+                  <i class="fa-solid fa-heart text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">User friendly</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, perspiciatis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MOBILE DVICE -->
+      <section class="d-lg-none d-md-none d-block" style="width: 90%; margin: auto; margin-top: 3em">
+        <div class="container-fluid">
+          <div class="row ">
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-4" >
+                <div>
+                  <i class="fa-solid fa-vault text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Easy to save</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, officiis?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-4">
+                <div>
+                  <i class="fa-solid fa-clock-rotate-left text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Available 24/7</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, accusantium.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-4">
+                <div>
+                  <i class="fa-solid fa-shield-halved text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Security</div>
+                  <p class="text-muted">
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, quaerat?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-4">
+                <div>
+                  <i class="fa-solid fa-piggy-bank text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2 flex-shrink-0" style="color: #252525d1">
+                    Save and grow your money
+                  </div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, illo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-4">
+                <div>
+                  <i class="fa-solid fa-microchip text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2">Multi intergrations</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, est.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="split d-flex gap-4 p-4">
+                <div>
+                  <i class="fa-solid fa-heart text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">User friendly</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aliquam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- THE STUDENTS -->
+      <!-- DESKTOP AND TABLET DEVICE  -->
+      <section class="d-lg-block d-md-block d-none"
+        style="width: 70%; margin: auto; text-align: center; margin-top: 5em"
+      >
+        <div class="h1" style="color: #252525d1">
+          The student's saving boost
+        </div>
+        <p class="text-muted">
+          Between tuition and textbooks, putting aside extra cash can be hard.
+          We can help by waiving the monthly maintenance fee for students under
+          25.
+        </p>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-none d-md-none d-block"
+        style="width: 90%; margin: auto; text-align: center; margin-top: 1em"
+      >
+        <div class="h1" style="color: #252525d1">
+          The student's saving boost
+        </div>
+        <p class="text-muted">
+          Between tuition and textbooks, putting aside extra cash can be hard.
+          We can help by waiving the monthly maintenance fee for students under
+          25.
+        </p>
+      </section>
+      <!-- STUDENTS BACKGROUND-IMAGE -->
+      <!-- DESKTOP DEVICE -->
+      <section class="d-lg-block d-md-none d-none mt-5" style="width: 70%; margin: auto">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <img src="assets/Rectangle 650.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+      <!-- TABLET DEVICE -->
+      <section class="d-lg-none d-md-block d-none mt-5">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <img src="assets/Rectangle 650.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-none d-md-none d-block mt-5">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <img src="assets/Rectangle 650.png" alt="" class="img-fluid" style="height: 15em;" />
+          </div>
+        </div>
+      </section>
+      <!-- ICON ADVERTISE -->
+      <!-- DESKTOP DEVICE  -->
+      <section class="d-lg-block d-md-none d-none mt-5" style="width: 70%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i class="fa-solid fa-mobile-screen text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Mobile deposits</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Eligendi perspiciatis cupiditate esse tempore iusto.
+                    Voluptatibus exercitationem esse odit, voluptatem doloremque
+                    rem id, cum nihil accusantium culpa, quae repudiandae
+                    impedit ullam.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i class="fa-solid fa-bullseye text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">
+                    Personalized plans
+                  </div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae sint distinctio praesentium veritatis nisi eligendi
+                    architecto pariatur quis laborum ex earum quibusdam amet aut
+                    quaerat voluptatum provident, expedita ipsam voluptatem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i
+                    class="fa-solid fa-fingerprint text-danger"
+                    style="font-size: 3rem"
+                  ></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Secure sign in</div>
+                  <p class="text-muted">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Obcaecati eos ipsam repellendus praesentium recusandae, eum
+                    distinctio autem accusantium perspiciatis ab eius non, dolor
+                    voluptatibus, ducimus quia qui possimus. Debitis, eum?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TABLET DEVICE -->
+      <section class="d-lg-none d-md-block d-none mt-5" style="width: 90%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i class="fa-solid fa-mobile-screen text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Mobile deposits</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Eligendi perspiciatis cupiditate esse tempore iusto.
+                    Voluptatibus exercitationem esse odit, voluptatem doloremque
+                    rem id, cum nihil accusantium culpa, quae repudiandae
+                    impedit ullam.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i class="fa-solid fa-bullseye text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">
+                    Personalized plans
+                  </div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae sint distinctio praesentium veritatis nisi eligendi
+                    architecto pariatur quis laborum ex earum quibusdam amet aut
+                    quaerat voluptatum provident, expedita ipsam voluptatem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12">
+              <div class="split d-flex gap-4 mt-5" style="width: 50%;margin:auto;">
+                <div>
+                  <i
+                    class="fa-solid fa-fingerprint text-danger"
+                    style="font-size: 3rem"
+                  ></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Secure sign in</div>
+                  <p class="text-muted">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Obcaecati eos ipsam repellendus praesentium recusandae, eum
+                    distinctio autem accusantium perspiciatis ab eius non, dolor
+                    voluptatibus, ducimus quia qui possimus. Debitis, eum?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-none d-md-none d-block mt-5" style="width: 90%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i class="fa-solid fa-mobile-screen text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Mobile deposits</div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Eligendi perspiciatis cupiditate esse tempore iusto.
+                    Voluptatibus exercitationem esse odit, voluptatem doloremque
+                    rem id, cum nihil accusantium culpa, quae repudiandae
+                    impedit ullam.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="split d-flex gap-4">
+                <div>
+                  <i class="fa-solid fa-bullseye text-danger"  style="font-size: 3rem"></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">
+                    Personalized plans
+                  </div>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae sint distinctio praesentium veritatis nisi eligendi
+                    architecto pariatur quis laborum ex earum quibusdam amet aut
+                    quaerat voluptatum provident, expedita ipsam voluptatem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="split d-flex gap-4 mt-5">
+                <div>
+                  <i
+                    class="fa-solid fa-fingerprint text-danger"
+                    style="font-size: 3rem"
+                  ></i>
+                </div>
+                <div>
+                  <div class="h2" style="color: #252525d1">Secure sign in</div>
+                  <p class="text-muted">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Obcaecati eos ipsam repellendus praesentium recusandae, eum
+                    distinctio autem accusantium perspiciatis ab eius non, dolor
+                    voluptatibus, ducimus quia qui possimus. Debitis, eum?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OPEN AN ACCOUNT -->
+      <section class="d-lg-block d-md-block d-none mt-5" style="width: 70%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="h1" style="color: #252525d1">
+                How can I open an account?
+              </div>
+              <p class="text-muted">
+                You can apply online for a checking accont, savings account, CD
+                or IRA. Simply select an account, enter your personal
+                information, verify your information and choose features &
+                funding options. You will receive an email once your application
+                is received and a follow-up email telling you whether it has
+                been approved, plus any next steps.
+              </p>
+              <button
+                class="btn btn-outline-danger fw-semibold p-2"
+                style="border-radius: 5rem; border: 2px solid; width: 12em; letter-spacing: .1em;"
+              >
+                LEARN MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MOBILE DEVICE -->
+      <section class="d-lg-none d-md-none d-block mt-5" style="width: 90%; margin: auto">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="h1" style="color: #252525d1">
+                How can I open an account?
+              </div>
+              <p class="text-muted">
+                You can apply online for a checking accont, savings account, CD
+                or IRA. Simply select an account, enter your personal
+                information, verify your information and choose features &
+                funding options. You will receive an email once your application
+                is received and a follow-up email telling you whether it has
+                been approved, plus any next steps.
+              </p>
+              <button
+                class="btn btn-outline-danger fw-semibold p-2 mt-4"
+                style="border-radius: 5rem; border: 2px solid; width: 18em; letter-spacing: .1em;"
+              >
+                OPEN ACCOUNT NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CAN  WE HELP? -->
+      <section style="width: 70%; margin: auto">
+        <div class="container-fluid" style="margin-top: 6em">
+          <div class="h1" style="color: #252525d1">How can we help?</div>
+          <div class="row" style="margin-top: 2em">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="split d-flex gap-2">
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-circle fs-4"
+                    style="color: rgba(0, 234, 255, 0.228)"
+                  ></i>
+                </div>
+                <div class="para text-muted">
+                  <p class="">Find a location near you</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="split d-flex gap-2">
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-circle fs-4"
+                    style="color: rgba(0, 234, 255, 0.228)"
+                  ></i>
+                </div>
+                <div class="para text-muted">
+                  <p>Make an appointement</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="split d-flex gap-2">
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-circle fs-4"
+                    style="color: rgba(0, 234, 255, 0.228)"
+                  ></i>
+                </div>
+                <div class="para text-muted">
+                  <p>(00 237) 123 456 789</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTENT -->
+      <!-- MOBILE DEVICE -->
+      <section
+        class="d-lg-none d-md-none d-block"
+        style="background-color: rgba(206, 206, 206, 0.408)"
+      >
+        <div
+          class="container-fluid"
+          style="width: 70%; margin: auto; margin-top: 5rem"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <p class="mt-5 text-muted">
+                Investment products and services are offered through Wells Fargo
+                Advisors. Wells Fargo Advisors is a trade name used by Wells
+                Fargo Cleaning Services, LLC(WFCS) Wells Fargo Advisors
+                Finaancial Network, LLC, Member SIPC, separate registered
+                broker-dealer and non-bank affiliates of Wells Fargo & Company.
+              </p>
+              <p class="text-muted">
+                Android, Chrome, Google Pay, Google Pixel, Giigle Play, Wear OS
+                by Google, and the Google Logo are trademarks of Google LLc.
+              </p>
+              <p class="text-muted">
+                Apple, the Apple logo, Apple Pay, Apple Watch, Face ID, iPad
+                Pro, iPhone, iTunes, Mac, Safari, and Touch ID are trademarks of
+                Apple Inc., registered in the U.S. and other countries. Apple
+                Wallet is a trademark of Apple Inc. App Store is a service mark
+                of Apple Inc.
+              </p>
+              <p class="text-muted">
+                Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.
+              </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <hr />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-muted">
+                <li class="nav-item">
+                  <p>Privacy, Cookies, Security & Legal</p>
+                </li>
+                <li class="nav-item">
+                  <p>Notice of Data Coletion</p>
+                </li>
+                <li class="nav-item">
+                  <p>General Terms of Use</p>
+                </li>
+                <li class="nav-item">
+                  <p>Online Access Agreement</p>
+                </li>
+                <li class="nav-item">
+                  <p>Ad Choices</p>
+                </li>
+                <li class="nav-item">
+                  <p>Report Fraud</p>
+                </li>
+                <li class="nav-item">
+                  <p>About wells Fargo</p>
+                </li>
+                <li class="nav-item">
+                  <p>Careers</p>
+                </li>
+                <li class="nav-item">
+                  <p>Diversity and Accessibility/p></p>
+                </li>
+
+                <li class="nav-item">
+                  <p>Sitemap</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DESKTOP AND TABLET DEVICE -->
+      <section
+        class="d-lg-block d-md-block d-none"
+        style="background-color: rgba(206, 206, 206, 0.408)"
+      >
+        <div
+          class="container-fluid"
+          style="width: 70%; margin: auto; margin-top: 5rem"
+        >
+          <div class="row">
+            <div
+              class="col-12 col-md-8 col-lg-8"
+              style="margin-top: 4em; margin-bottom: 4em; padding-right: 4em"
+            >
+              <p class="text-muted">
+                Investment products and services are offered through Wells Fargo
+                Advisors. Wells Fargo Advisors is a trade name used by Wells
+                Fargo Cleaning Services, LLC(WFCS) Wells Fargo Advisors
+                Finaancial Network, LLC, Member SIPC, separate registered
+                broker-dealer and non-bank affiliates of Wells Fargo & Company.
+              </p>
+              <p class="text-muted">
+                Android, Chrome, Google Pay, Google Pixel, Giigle Play, Wear OS
+                by Google, and the Google Logo are trademarks of Google LLc.
+              </p>
+              <p class="text-muted">
+                Apple, the Apple logo, Apple Pay, Apple Watch, Face ID, iPad
+                Pro, iPhone, iTunes, Mac, Safari, and Touch ID are trademarks of
+                Apple Inc., registered in the U.S. and other countries. Apple
+                Wallet is a trademark of Apple Inc. App Store is a service mark
+                of Apple Inc.
+              </p>
+              <p class="text-muted">
+                Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.
+              </p>
+            </div>
+            <div
+              class="col-12 col-md-4 col-lg-4"
+              style="
+                border-left: 2px solid grey;
+                margin-top: 4em;
+                margin-bottom: 4em;
+                padding-left: 5em;
+              "
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-muted">
+                <li class="nav-item">
+                  <p>Privacy, Cookies, Security & Legal</p>
+                </li>
+                <li class="nav-item">
+                  <p>Notice of Data Coletion</p>
+                </li>
+                <li class="nav-item">
+                  <p>General Terms of Use</p>
+                </li>
+                <li class="nav-item">
+                  <p>Online Access Agreement</p>
+                </li>
+                <li class="nav-item">
+                  <p>Ad Choices</p>
+                </li>
+                <li class="nav-item">
+                  <p>Report Fraud</p>
+                </li>
+                <li class="nav-item">
+                  <p>About wells Fargo</p>
+                </li>
+                <li class="nav-item">
+                  <p>Careers</p>
+                </li>
+                <li class="nav-item">
+                  <p>Diversity and Accessibility</p>
+                </li>
+                <li class="nav-item">
+                  <p>Sitemap</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid" style="background-color: red">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="split d-flex justify-content-center align-iterms-cemter gap-3 text-light fs-2"
+            >
+              <div class="icon">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="icon"><i class="bi bi-youtube"></i></div>
+              <div class="icon">
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <p class="text-center text-light mt-2">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="text-center text-light">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
